@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="qzZr1R80FjVYS2V0vMqd" name="Página-1">
+        <mxGraphModel dx="2660" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-840" y="-740" width="550" height="1264" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="22" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;INICIO&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="268.125" width="126.92307692307692" height="93.28413284132841" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="22" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingresar al catalogo de prodcutos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="208.3653846153846" y="202.8929889298893" width="246.4423076923077" height="69.96309963099631" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Buscar producto&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Buscar por flitro (nombre/cateogria))&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="22">
+                    <mxGeometry x="232.6923076923077" y="366.140221402214" width="200.96153846153845" height="116.60516605166052" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="22" source="9" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="333.1730769230769" y="506.06642066420665" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="22" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="0.0039" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="22" source="9" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.3037" relative="1" as="geometry">
+                        <mxPoint y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;¿Existe el producto?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="317.3076923076923" y="541.0479704797048" width="179.80769230769232" height="198.22878228782287" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="22" source="11" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105.76923076923077" y="424.44280442804427"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No se econtraron los productos&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry y="727.6162361623616" width="211.53846153846155" height="81.62361623616236" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="22" source="15" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Obtener los datos del prodcuto&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="306.7307692307692" y="844.2214022140221" width="211.53846153846155" height="69.96309963099631" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="22" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Mostrar al cliente la ifnormacion del producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(En una lista: nombre, precio, unidades disponibles)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="275" y="1007.4686346863468" width="275" height="104.94464944649447" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FIN&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="370.1923076923077" y="1211.5276752767527" width="84.61538461538461" height="52.47232472324723" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

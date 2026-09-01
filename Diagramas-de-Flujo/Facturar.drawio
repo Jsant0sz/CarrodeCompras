@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="YMnTkab87C59t6yPcYjZ" name="Página-1">
+        <mxGraphModel dx="696" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="26" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="150" y="-1120" width="497" height="1170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="50.07556675062972" width="150.22670025188916" height="53.669724770642205" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Recibbir confirmacion de la orden de compra aprobada" style="whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="25.03778337531486" y="134.1743119266055" width="200.30226700251887" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="26" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Solicitar datos del cliente para la facturación&lt;div&gt;(NIT/CF, nombre, apellidos, dirección, correo electronico)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="25.03778337531486" y="284.44954128440367" width="212.8211586901763" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="26" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="187.78337531486144" y="515.2293577981651" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="-0.0924" y="-3" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="26" source="8" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="375.5667506297229" y="515.2293577981651" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="¿Datos de facturación validos?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="200.30226700251887" y="386.42201834862385" width="131.448362720403" height="118.07339449541284" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="26" source="11" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="568.8990825688073"/>
+                            <mxPoint y="316.651376146789"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Datos Imcompletos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="62.59445843828715" y="536.697247706422" width="150.22670025188916" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="15" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Generar documento&lt;div&gt;PDF / XML&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="346.7732997481108" y="525.9633027522935" width="150.22670025188916" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Asignar numero de autorización" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="26">
+                    <mxGeometry x="346.7732997481108" y="676.2385321100918" width="150.22670025188916" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&amp;nbsp;Enviar al correo del usuario" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="26">
+                    <mxGeometry x="346.7732997481108" y="826.5137614678899" width="150.22670025188916" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="26" source="20" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Mostrar factura en otra ventana del navegador" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="26">
+                    <mxGeometry x="346.7732997481108" y="976.7889908256881" width="150.22670025188916" height="64.40366972477064" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="FIN" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="26">
+                    <mxGeometry x="371.81108312342565" y="1116.3302752293578" width="100.15113350125944" height="53.669724770642205" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
